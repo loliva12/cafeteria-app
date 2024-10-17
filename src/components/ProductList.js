@@ -14,9 +14,9 @@ function ProductList({ addToCart }) {
     <div className="product-list">
       <h2>Menú Cafetería</h2>
       {products.map((product) => (
-        <div key={product.id}>
+        <div key={product.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px', borderBottom: '1px solid #ddd' }}>
           <span>{product.name} - ${product.price}</span>
-          <button onClick={() => addToCart(product)}>Agregar al carrito</button>
+          <button onClick={() => addToCart(product)}>Agregar</button>
         </div>
       ))}
     </div>

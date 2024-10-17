@@ -6,12 +6,16 @@ function Cart({ cart, proceedToPayment }) {
   return (
     <div className="cart">
       <h2>Tu Pedido</h2>
-      {cart.map((product, index) => (
-        <div key={index}>
-          <span>{product.name} - ${product.price}</span>
-        </div>
-      ))}
-      <h3>Total: ${total}</h3>
+      {cart.length === 0 ? (
+        <p>No hay productos en el carrito.</p>
+      ) : (
+        cart.map((product, index) => (
+          <div key={index} style={{ display: 'flex', justifyContent: 'space-between', padding: '10px', borderBottom: '1px solid #ddd' }}>
+            <span>{product.name} - ${product.price}</span>
+          </div>
+        ))
+      )}
+      <h3 className="total">Total: ${total}</h3>
       <button onClick={proceedToPayment}>Pagar</button>
     </div>
   );

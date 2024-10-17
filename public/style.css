@@ -1,34 +1,63 @@
+/* Estilos globales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
-    padding: 0;
+    font-family: 'Poppins', sans-serif;  /* Tipografía moderna */
+    background-color: #f4f4f4; /* Color de fondo claro */
 }
 
 .container {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 600px; /* Aumenta el ancho para mejor visualización */
+    margin: 20px auto; /* Centra la caja en la pantalla */
     padding: 20px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-button {
-    padding: 10px;
-    background-color: #ff6b6b;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #ff4b4b;
+    background: white; /* Fondo blanco para el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
 h1, h2 {
     text-align: center;
+    color: #333; /* Color de texto más oscuro */
 }
 
-.cart, .product-list, .payment, .confirmation {
+.product-list, .cart, .payment, .confirmation {
     margin-top: 20px;
+    border: 1px solid #ddd; /* Borde sutil para las secciones */
+    border-radius: 10px;
+    padding: 15px; /* Espaciado interno */
+    transition: all 0.3s ease; /* Suave transición en hover */
+}
+
+.product-list:hover, .cart:hover, .payment:hover, .confirmation:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más fuerte al pasar el mouse */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff6b6b; /* Color atractivo para botones */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados para los botones */
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente más grande */
+    transition: background-color 0.3s; /* Suave transición de color */
+    width: 100%; /* Botones ocupan todo el ancho */
+}
+
+button:hover {
+    background-color: #ff4b4b; /* Color más oscuro al pasar el mouse */
+}
+
+.qr-code {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #eee; /* Fondo claro para el QR */
+    border-radius: 10px;
+    border: 1px dashed #ccc; /* Borde discontinuo para el QR */
+}
+
+.total {
+    font-weight: bold;
+    font-size: 18px;
 }
