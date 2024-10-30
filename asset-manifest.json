@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/loliva12/cafeteria-app/static/css/main.034a957c.css",
+    "main.css": "/loliva12/cafeteria-app/static/css/main.dd148f07.css",
     "main.js": "/loliva12/cafeteria-app/static/js/main.59dcd289.js",
     "index.html": "/loliva12/cafeteria-app/index.html",
-    "main.034a957c.css.map": "/loliva12/cafeteria-app/static/css/main.034a957c.css.map",
+    "main.dd148f07.css.map": "/loliva12/cafeteria-app/static/css/main.dd148f07.css.map",
     "main.59dcd289.js.map": "/loliva12/cafeteria-app/static/js/main.59dcd289.js.map"
   },
   "entrypoints": [
-    "static/css/main.034a957c.css",
+    "static/css/main.dd148f07.css",
     "static/js/main.59dcd289.js"
   ]
 }
