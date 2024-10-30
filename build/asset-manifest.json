@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cafeteria-app/static/css/main.034a957c.css",
+    "main.js": "/cafeteria-app/static/js/main.59dcd289.js",
+    "index.html": "/cafeteria-app/index.html",
+    "main.034a957c.css.map": "/cafeteria-app/static/css/main.034a957c.css.map",
+    "main.59dcd289.js.map": "/cafeteria-app/static/js/main.59dcd289.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.034a957c.css",
+    "static/js/main.59dcd289.js"
+  ]
+}

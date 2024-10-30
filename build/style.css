@@ -1,0 +1,126 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;  /* Tipografía moderna */
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+.container {
+    max-width: 600px; /* Aumenta el ancho para mejor visualización */
+    margin: 20px auto; /* Centra la caja en la pantalla */
+    padding: 20px;
+    background: white; /* Fondo blanco para el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333; /* Color de texto más oscuro */
+}
+
+.product-list, .cart, .payment, .confirmation {
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Borde sutil para las secciones */
+    border-radius: 10px;
+    padding: 15px; /* Espaciado interno */
+    transition: all 0.3s ease; /* Suave transición en hover */
+}
+
+.product-list:hover, .cart:hover, .payment:hover, .confirmation:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más fuerte al pasar el mouse */
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px 0; /* Espacio entre botones */
+    background-color: #800020; /* Color bordó para los botones */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #660018; /* Color bordó más oscuro al pasar el mouse */
+}
+
+
+.qr-code {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #eee; /* Fondo claro para el QR */
+    border-radius: 10px;
+    border: 1px dashed #ccc; /* Borde discontinuo para el QR */
+}
+
+.total {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-info h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-info p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #800020; /* Color bordó */
+}
+
+.product-info button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #800020; /* Color bordó */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.product-info button:hover {
+    background-color: #660018; /* Bordó más oscuro */
+}

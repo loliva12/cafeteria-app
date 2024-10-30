@@ -1,5 +1,6 @@
 {
   "name": "cafeteria-app",
+  "homepage": "https://loliva12.github.io/cafeteria-app",
   "version": "1.0.0",
   "description": "Aplicación web para pedidos en una cafetería",
   "main": "src/App.js",
@@ -9,6 +10,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node server/server.js"
+    
   },
   "author": "Tu Nombre",
   "license": "MIT",
